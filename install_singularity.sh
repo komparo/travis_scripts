@@ -4,7 +4,8 @@ set -e
 
 SINGULARITY_VERSION=2.5.2
 
-export SINGULARITY_DIR="$HOME/.cache/singularity-$SINGULARITY_VERSION"
+mkdir -p "$HOME/singularity"
+export SINGULARITY_DIR="$HOME/singularity/singularity-$SINGULARITY_VERSION"
 echo $SINGULARITY_DIR
 
 if [ "$TRAVIS_OS_NAME" == "osx" ]; then # use homebrew version
