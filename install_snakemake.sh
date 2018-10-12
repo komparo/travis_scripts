@@ -13,6 +13,7 @@ conda update -q conda
 conda info -a
 conda config --add channels defaults
 conda config --add channels conda-forge
+conda config --add channels bioconda
 conda create -q -n snakemake python=$TRAVIS_PYTHON_VERSION snakemake
 
 source activate snakemake
