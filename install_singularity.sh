@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 SINGULARITY_VERSION=2.5.2
 
 mkdir -p "$HOME/singularity"
