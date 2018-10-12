@@ -1,7 +1,7 @@
 # based on https://conda.io/docs/user-guide/tasks/use-conda-with-travis-ci.html
 
 # set default python version if not present
-TRAVIS_PYTHON_VERSION=${TRAVIS_PYTHON_VERSION:=3.6}
+TRAVIS_PYTHON_VERSION=${TRAVIS_PYTHON_VERSION:=3.7}
 
 # download miniconda
 wget -q https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
